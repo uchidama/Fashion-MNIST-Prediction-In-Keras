@@ -1,0 +1,46 @@
+Epoch,loss,acc,val_loss,val_acc
+1, - loss: 0.5790 - acc: 0.7924 - val_loss: 0.3611 - val_acc: 0.8695
+Epoch 2/24
+2, - loss: 0.3656 - acc: 0.8684 - val_loss: 0.3136 - val_acc: 0.8841
+Epoch 3/24
+3, - loss: 0.3162 - acc: 0.8880 - val_loss: 0.2721 - val_acc: 0.8991
+Epoch 4/24
+4, - loss: 0.2843 - acc: 0.8985 - val_loss: 0.2628 - val_acc: 0.9050
+Epoch 5/24
+5, - loss: 0.2600 - acc: 0.9066 - val_loss: 0.2536 - val_acc: 0.9052
+Epoch 6/24
+6,  - loss: 0.2445 - acc: 0.9108 - val_loss: 0.2358 - val_acc: 0.9147
+Epoch 7/24
+7, - loss: 0.2284 - acc: 0.9173 - val_loss: 0.2302 - val_acc: 0.9168
+Epoch 8/24
+8, - loss: 0.2133 - acc: 0.9233 - val_loss: 0.2376 - val_acc: 0.9174
+Epoch 9/24
+9, - loss: 0.2028 - acc: 0.9268 - val_loss: 0.2262 - val_acc: 0.9151
+Epoch 10/24
+10, - loss: 0.1913 - acc: 0.9309 - val_loss: 0.2375 - val_acc: 0.9141
+Epoch 11/24
+11,  - loss: 0.1845 - acc: 0.9345 - val_loss: 0.2192 - val_acc: 0.9177
+Epoch 12/24
+12,  - loss: 0.1749 - acc: 0.9371 - val_loss: 0.2154 - val_acc: 0.9215
+Epoch 13/24
+13,  - loss: 0.1696 - acc: 0.9396 - val_loss: 0.2178 - val_acc: 0.9231
+Epoch 14/24
+14,  - loss: 0.1588 - acc: 0.9430 - val_loss: 0.2235 - val_acc: 0.9244
+Epoch 15/24
+15,  - loss: 0.1518 - acc: 0.9454 - val_loss: 0.2153 - val_acc: 0.9252
+Epoch 16/24
+16, - loss: 0.1481 - acc: 0.9466 - val_loss: 0.2159 - val_acc: 0.9257
+Epoch 17/24
+17,  - loss: 0.1435 - acc: 0.9481 - val_loss: 0.2146 - val_acc: 0.9282
+Epoch 18/24
+18,  - loss: 0.1369 - acc: 0.9505 - val_loss: 0.2176 - val_acc: 0.9275
+Epoch 19/24
+19, - loss: 0.1318 - acc: 0.9526 - val_loss: 0.2212 - val_acc: 0.9319
+Epoch 20/24
+20,  - loss: 0.1269 - acc: 0.9545 - val_loss: 0.2429 - val_acc: 0.9198
+21, - loss: 0.1265 - acc: 0.9541 - val_loss: 0.2256 - val_acc: 0.9278
+22,  - loss: 0.1215 - acc: 0.9551 - val_loss: 0.2300 - val_acc: 0.9256
+23, - loss: 0.1166 - acc: 0.9577 - val_loss: 0.2223 - val_acc: 0.9284
+24,  - loss: 0.1124 - acc: 0.9602 - val_loss: 0.2334 - val_acc: 0.9325
+Test loss: 0.23342773627713323
+Test accuracy: 0.9325
