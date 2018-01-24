@@ -1,6 +1,6 @@
 ﻿# Fashion-MNIST Prediction In Keras
 
-[![https://gyazo.com/d734da41cefe877f713019fc92a301b3](https://i.gyazo.com/d734da41cefe877f713019fc92a301b3.gif)](https://gyazo.com/d734da41cefe877f713019fc92a301b3)
+[![https://gyazo.com/b7cc5b7b9f5a11fdce057a35f22bdfbb](https://i.gyazo.com/b7cc5b7b9f5a11fdce057a35f22bdfbb.png)](https://gyazo.com/b7cc5b7b9f5a11fdce057a35f22bdfbb)
 
 This software visualizes Fashion-MNIST image files label prediction results by a CNN model.  
 A fail prediction is displayed red text. left side text is a fail prediction, right side is a correct label.
