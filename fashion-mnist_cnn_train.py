@@ -13,10 +13,26 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
+from keras.callbacks import CSVLogger
+import sys
 
+def printArgError():
+    print("set epochs.")
+    print("'python fashion-mnist_cnn_train.py 12'")
+
+if len(sys.argv) < 2:
+    printArgError()
+    quit()
+
+if sys.argv[1].isdigit() == False:
+    printArgError()
+    quit()
+
+epochs = int(sys.argv[1])
+print("epochs:"+str(epochs))
+  
 batch_size = 128
 num_classes = 10
-epochs = 12
 
 # input image dimensions
 img_rows, img_cols = 28, 28
@@ -61,7 +77,8 @@ model.compile(loss=keras.losses.categorical_crossentropy,
               optimizer=keras.optimizers.Adadelta(),
               metrics=['accuracy'])
 
-model.fit(x_train, y_train,
+csv_logger = CSVLogger('train_log/trainlog_epochs' + str(epochs) + '.csv', append=True, separator=',')
+model.fit(x_train, y_train, callbacks=[csv_logger],
           batch_size=batch_size,
           epochs=epochs,
           verbose=1,
@@ -71,5 +88,5 @@ print('Test loss:', score[0])
 print('Test accuracy:', score[1])
 
 # save model
-model.save("model_fashion-mnist_cnn.h5")
+model.save("model_fashion-mnist_cnn_epochs" + str(epochs) + ".h5")
 
