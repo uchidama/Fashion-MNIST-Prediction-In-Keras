@@ -21,6 +21,8 @@ jupyter notebook
 
 3. click 'keras_fashion-mnist_prediction.ipynb' and run.
 
+4. click 'keras_fashion-mnist_prediction_similar_images.ipynb' and run.
+
 ## Installation
 
 This software using Keras.
